@@ -1,31 +1,22 @@
-# Dynamic extension
+# Capsule extension
 
 ![alt text](./capsule.jpeg)
 
-This Scaffold-ETH 2 extension comes pre-configured with [Dynamic.xyz](https://dynamic.xyz/), providing an example to help you get started quickly. Follow the steps below to set up and start using the extension.
+This Scaffold-ETH 2 extension comes pre-configured with [Capsule](https://usecapsule.com/) for email and SMS login with MPC, providing an example to help you get started quickly. Follow the steps below to set up and start using the extension.
 
 ## Installation
 
-1. Create a new project with Dynamic extension:
+1. Create a new project with the Capsule extension:
 
 ```bash
-npx create-eth@latest -e @tantodefi/dynamic-extension
+npx create-eth@latest -e tantodefi/capsule-extension
 ```
-
-2. Configure environment variables:
-
-Create the file `packages/nextjs/.env.local` and copy the contents of `packages/nextjs/.env.example` into it.
-
-3. Get your Dynamic API Key:
-
-Visit the Dynamic Dashboard  to get your Api Key: https://app.dynamic.xyz/ and add it to `packages/nextjs/.env.local`
-
-> **Note:** Make sure to update the API key into the 'NEXT_PUBLIC_DYNAMIC_API_KEY' variable
 
 ## Documentation
 
-For more detailed information and usage visit: https://docs.dynamic.xyz/introduction/welcome or watch this [youtube video](https://www.youtube.com/watch?v=72fHCCgUGmg)
+For more detailed information and usage visit: https://docs.usecapsule.com/getting-started/initial-setup/web-modal-and-sdk-setup
 
 ## Notes
 
-- make sure to follow the steps at the /dynamic-login page which is linked in the header
+- follow flexy on [x/twitter](https://twitter.com/usecapsule
+- follow me on [x/twitter](https://x.com/tantodefi)
